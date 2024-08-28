@@ -10,22 +10,16 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form1 : Form
+    public partial class Registro_de_Libros : Form
     {
-        public Form1()
+        public Registro_de_Libros()
         {
             InitializeComponent();
         }
 
-        private void btnGeneral_MouseOver(object sender, EventArgs e)
+        private void btnBuscarLibro_Click(object sender, EventArgs e)
         {
-            this.ForeColor = Color.Black;
-        }
 
-        private void btnRegistroLibros_MouseHover(object sender, EventArgs e)
-        {
-            this.ForeColor = Color.Black;
         }
     }
-
 }
