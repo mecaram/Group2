@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp1
+namespace WindowsFormsApp1.Registros_de_Datos
 {
-    public partial class NuevoLibro : Form
+    public partial class NuevaEnciclopedia : Form
     {
-        public NuevoLibro()
+        public NuevaEnciclopedia()
         {
             InitializeComponent();
         }

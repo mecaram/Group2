@@ -40,6 +40,7 @@
             this.btnDespEnciclopedias = new WindowsFormsApp1.PillButton();
             this.btnDespLibros = new WindowsFormsApp1.PillButton();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnCancelarRegistro = new WindowsFormsApp1.PillButton();
             this.panelSideView.SuspendLayout();
             this.pnlSubmenuLibros.SuspendLayout();
             this.SuspendLayout();
@@ -245,11 +246,27 @@
             this.flowLayoutPanel1.Size = new System.Drawing.Size(275, 100);
             this.flowLayoutPanel1.TabIndex = 1;
             // 
+            // btnCancelarRegistro
+            // 
+            this.btnCancelarRegistro.BackColor = System.Drawing.Color.White;
+            this.btnCancelarRegistro.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.btnCancelarRegistro.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGray;
+            this.btnCancelarRegistro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancelarRegistro.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelarRegistro.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnCancelarRegistro.Location = new System.Drawing.Point(521, 326);
+            this.btnCancelarRegistro.Name = "btnCancelarRegistro";
+            this.btnCancelarRegistro.Size = new System.Drawing.Size(127, 38);
+            this.btnCancelarRegistro.TabIndex = 30;
+            this.btnCancelarRegistro.Text = "Cancelar";
+            this.btnCancelarRegistro.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1169, 690);
+            this.Controls.Add(this.btnCancelarRegistro);
             this.Controls.Add(this.panelSideView);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -273,6 +290,7 @@
         private PillButton btnDespProyectos;
         private System.Windows.Forms.Panel pnlSubmenuLibros;
         private PillButton btnRegistroLibros;
+        private PillButton btnCancelarRegistro;
     }
 }
 
